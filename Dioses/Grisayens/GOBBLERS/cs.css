@@ -1,7 +1,36 @@
 body{
-    text-align: center;
     background-image: url("sun.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    text-align: center;
+}
+.box{
+    width: 450px;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 10px 1px;
+    height: 350px;
+}
+.margen>p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.change>p{
+    font-size: 30px;
+    color: rgb(255, 255, 255); 
+}
+.star{
+    width: 20px;
+    height: 20px;
+    background-image: url("starr.png");
+}
+.header{
+    justify-content: center;
+    padding: 20px 0px;
+    flex-direction: row;
+    display: flex;
+}
+.UwU>p{
+    color: cornsilk;
 }

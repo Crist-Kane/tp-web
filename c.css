@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image:url("cre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.text>p{
+    font-size: 28px;
+    color: #00004c;
+}
+.boite{
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 2px 1px;
+    height: 350px;
+}
+.boite>div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% ;    
+    margin: auto;
+    height: 250px;
+}
+.agrupar{
+    display: flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.agrupar>div>p{
+    font-size: 19px;
+    color: #262631;
+}

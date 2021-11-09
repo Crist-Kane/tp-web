@@ -20,7 +20,7 @@ body{
     color:#990012;
 }
 .text>p{
-    font-size: 20px;
+    font-size: 22px;
     color: #F0FFFF;
 }
 .rig{
@@ -28,6 +28,7 @@ body{
    text-align: start;
    float: left;
    shape-outside: border-box;
+   font-size: 22px;
 }
 .rig>ul>li>a{
     color: darkred;
@@ -46,4 +47,11 @@ body{
     border-radius: 5px;
     margin: 10px 1px;
     height: 260px;
+}
+.uw{
+    display:flex;
+    justify-content: center;
+}
+.uw>p{
+    color: blue;
 }
