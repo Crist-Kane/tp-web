@@ -4,12 +4,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-attachment: fixed;
+    margin: auto;
 }
 .header{
     justify-content: center;
     padding: 20px 0px;
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.header>div{
+    margin: 0 40px;
 }
 .link{
     font-size: 40px;
@@ -55,3 +62,12 @@ body{
 .uw>p{
     color: blue;
 }
+@media screen and (max-width: 992px){
+    p{
+    font-size: 29px;
+        }
+.alinear{
+    flex-direction: column;
+  align-items: center;
+}
+    }

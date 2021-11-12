@@ -4,9 +4,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-attachment: fixed;
+    margin: auto;
 }
-
-
 .white{
     color: #2E2E2E;
 }
@@ -15,6 +15,7 @@ body{
 }
 p{
     color:#000000;
+    font-size:(1rem, 2.5vw, 1.8rem);
 }
 .cc>p{
     font-size: 21px;
@@ -29,4 +30,16 @@ p{
     border-radius: 5px;
     margin: 10px 1px;
     height: 260px;
+}
+@media screen and (max-width: 667px){
+p{
+font-size: 50px;
+    }
+}
+@media screen and (min-width: 280px) {
+    p{
+        font-size: 20px;
+    }
+
+    
 }

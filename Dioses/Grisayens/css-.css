@@ -3,18 +3,21 @@ body{
     background-image: url("r.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-attachment: fixed;
+    margin: auto;
+    background-position: center;
+
 }
 .Text>p{
     color: #eceff1;
      font-size:22px;
 }
 .HERO{
-    width: 460px;
+    width: 390px;
     border: 4px solid black;
     border-radius: 5px;
     margin: 10px 1px;
-    height: 360px;
+    height: auto;
 }
 .star{
     width: 20px;
@@ -30,3 +33,8 @@ body{
 .UwU>p{
     color: cornsilk;
 }
+@media screen and (max-width: 667px){
+    p{
+    font-size: 50px;
+        }
+    }

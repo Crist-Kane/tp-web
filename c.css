@@ -4,6 +4,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-attachment: fixed;
+    margin: auto;
 }
 .text>p{
     font-size: 28px;
@@ -33,3 +35,8 @@ body{
     font-size: 19px;
     color: #262631;
 }
+@media screen and (max-width: 667px){
+    p{
+    font-size: 50px;
+        }
+    }
